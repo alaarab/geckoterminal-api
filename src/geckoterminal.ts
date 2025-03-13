@@ -7,7 +7,7 @@
 
 import axios, { AxiosInstance, AxiosError } from 'axios';
 // Import package.json for version
-import pkg from '../package.json' with { type: 'json' };
+const pkg = require('../package.json');
 import dotenv from 'dotenv';
 import {
   GeckoTerminalOptions,
