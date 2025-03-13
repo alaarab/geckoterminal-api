@@ -4,6 +4,11 @@
   "description": "A Node.js wrapper for the Geckoterminal API",
   "main": "dist/index.js",
   "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest --config jest.config.cjs",
@@ -22,7 +27,7 @@
     "polygon",
     "binance"
   ],
-  "author": "",
+  "author": "alaarab",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.7",
@@ -42,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/geckoterminal-api"
+    "url": "https://github.com/alaarab/geckoterminal-api"
   },
   "engines": {
     "node": ">=14.0.0"

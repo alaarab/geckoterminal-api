@@ -1,0 +1,34 @@
+# Source
+src/
+
+# Tests
+*.test.ts
+*.test.js
+jest.config.*
+coverage/
+
+# Development configs
+.eslintrc
+.eslintignore
+tsconfig.json
+.prettierrc
+.editorconfig
+
+# Git and CI
+.git/
+.github/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env*
+
+# Misc
+.DS_Store
+Thumbs.db 
